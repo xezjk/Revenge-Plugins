@@ -22,6 +22,7 @@ enum ActivityTypes {
   WATCHING = 3,
   CUSTOM = 4,
   COMPETING = 5,
+  HANGSTATUS = 6,
 }
 
 function createDefaultSelection(): Activity {
