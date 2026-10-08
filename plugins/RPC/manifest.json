@@ -1,14 +1,18 @@
 {
-  "name": "Rich Presence",
+  "name": "Rich Presence Forked",
   "description": "Sets Discord Rich Presence for your profile.",
   "authors": [
     {
-      "name": "pylix",
+      "name": "pylix", 
       "id": "492949202121261067"
     },
     {
       "name": "シグマ siguma",
       "id": "737597276339437578"
+    }
+    {
+      "name": "xezjk",
+      "id": "985520795126206464"
     }
   ],
   "main": "src/index.ts",
