@@ -89,12 +89,12 @@ export default function Settings() {
             helpText="Geeked out stuff but you can use your own bot's application ID"
           />
           <FormInput
-            title="Activity Type (0-5)"
+            title="Activity Type (0-6)"
             placeholder="0"
             value={String(settings.type ?? 0)}
             onChange={(v) => settings.type = Number(v)}
             keyboardType="numeric"
-            helpText="Playing, Streaming, Listening, Watching, Custom, Competing"
+            helpText="Playing, Streaming, Listening, Watching, Custom, Competing, HangStatus"
           />
           <FormInput
             title="Details"
